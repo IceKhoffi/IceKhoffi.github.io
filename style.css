@@ -18,11 +18,41 @@ body {
     padding:24px
 }
 
-header{
-    background:#0f172a;
-    padding:12px 0;
-    text-align:center
+header {
+  background: #0f172a;
+  padding: 12px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
+
+.linkedin-btn {
+  display: inline-block;
+  background-color: #0077b5;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.linkedin-btn:hover {
+  background-color: #005582;
+}
+
+nav {
+  display: flex;
+  justify-content: center;   /* keeps Projects & Datasets in the middle */
+  align-items: center;
+  gap: 20px;
+}
+
+nav .linkedin-btn {
+  margin-left: auto; /* pushes LinkedIn all the way to the right */
+}
+
 
 nav a{
     color:var(--text);
