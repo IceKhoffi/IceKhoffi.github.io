@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home | Imerson Krysthio</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <nav>
+        <a href="homepage.html" class="active">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="datasets.html">Datasets</a>
+        <a href="contact.html">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <h1>Welcome To My Showcase Website</h1>
+    <h2>Data Science undergraduate & aspiring ML/AI Engineer</h2>
+
+    <p class="intro">
+      Hi, I’m <span class="highlight">Imerson Krysthio </span> Data Science student at BINUS University with a strong interest in 
+      <strong>machine learning</strong> and solving <strong>real-world problems</strong>.  
+      As part of the campus Data Science club, I create educational content to simplify 
+      complex concepts for others.  
+      I’m passionate about turning data into <strong>intelligent, usable models</strong>,
+      and always eager to <strong>learn, build, and grow</strong>.
+    </p>
+
+    <div class="button-group">
+      <a href="projects.html" class="btn primary">View My Projects</a>
+      <a href="contact.html" class="btn">Learn More About Me</a>
+    </div>
+  </main>
+
+  <footer>© <span id="year"></span> Imerson Krysthio</footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="../js/homepage.js"></script>
+</body>
+</html>

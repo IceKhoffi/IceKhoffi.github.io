@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <nav>
+        <a href="homepage.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="datasets.html">Datasets</a>
+        <a href="contact.html">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container center">
+    <h1>Contact Me</h1>
+
+    <h3>Let's discover insights and drive impact</h3>
+    <p>
+      I'm passionate about designing, training, and deploying machine learning models that create real-world impact.
+      <br>Feel free to connect through any of the platforms below:
+    </p>
+
+    <section class="contact-links">
+      <div class="contact-card">
+        <a href="https://www.linkedin.com/in/imerson-krysthio" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          <p>LinkedIn</p>
+        </a>
+      </div>
+
+      <div class="contact-card">
+        <a href="https://github.com/IceKhoffi" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          <p>GitHub</p>
+        </a>
+      </div>
+
+      <div class="contact-card">
+        <a href="https://huggingface.co/IceKhoffi" target="_blank">
+          <i class="fa-solid fa-robot"></i>
+          <p>HuggingFace</p>
+        </a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Imerson Krysthio</footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="../js/contact.js"></script>
+</body>
+</html>
