@@ -5,6 +5,13 @@ const datasets = [
     media:"",
     features:["5k+ downloads", "Visual Data", "Audio Data"],
     link:"https://huggingface.co/datasets/IceKhoffi/chicken-health-behavior-multimodal"
+  },
+  {
+    title:"IDR Coins Dataset",
+    description:"This is an image dataset of **Indonesian Rupiah (IDR) coins** with denominations ranging from **IDR 100 to IDR 1000**. It is a unique collection because it includes images of the same denomination from **different minting years and design templates**, making it ideal for coin recognition and classification research.",
+    media:"",
+    features:["Visual Data", "Annotated Images"],
+    link:"https://huggingface.co/datasets/IceKhoffi/idr-coins"
   }
 ];
 
