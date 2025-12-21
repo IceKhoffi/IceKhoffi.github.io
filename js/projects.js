@@ -12,6 +12,12 @@ const projects = [
     media: "../assets/07f8214e5d467a8d43b0c6ac240ac6777b77ca741b76fa478dc6df09b453feaf.png",
     features: ["Behavior Monitoring", "Vocalization Analysis", "Activity Patterns", "Early Notifications"],
     repo: "https://github.com/IceKhoffi/ChickSense"
+  },
+  {
+    title: "Indonesian Product Review ABSA",
+    description: "An Aspect-Based Sentiment Analysis system designed for Indonesian e-commerce reviews. It utilizes deep learning models to extract specific product attributes (like color, texture, or delivery) and determine the sentiment for each, providing granular customer feedback insights.",
+    features: ["IndoBERT (Transformers)", "BiLSTM & LSTM Architectures", "Tokopedia Web Scraping", "Multi-label Aspect Extraction"],
+    repo: "https://github.com/IceKhoffi/aspect-based-sentiment-analysis"
   }
 ];
 
